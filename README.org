@@ -1,10 +1,10 @@
 * Fall 2021 - Lab 07
 
-* Last name:
+* Last name: Huang
 
-* First name:
+* First name: Evan
 
-* GitHub username:
+* GitHub username: ThisGuyEvan
 
 * Notes:
 
