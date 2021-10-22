@@ -6,7 +6,7 @@
 
 * GitHub username: ThisGuyEvan
 
-* Notes:
+* Notes: Test cases are in main. 
 
 
   
