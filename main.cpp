@@ -57,6 +57,7 @@ int main()
 
     //TEST CASE #2: horrible-code.cpp
     std::cout << "\n\nTEST CASE 2: horrible-code.cpp";
+    file.open("horrible-code.cpp");
     std::cout << "\nFile: \"horrible-code.cpp\" - [Unedited]:\n\n";
     while (getline(file, s))
     {
