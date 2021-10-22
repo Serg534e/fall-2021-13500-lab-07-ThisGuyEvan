@@ -1,18 +1,11 @@
-OBJECTS = unindent.o
+#Makefile
+
+main:	main.o indent.o
+	g++ -o main main.o indent.o
 
 
-
-main: main.o $(OBJECTS)
-	g++ -o main main.o $(OBJECTS)
-
-
-tests: tests.o $(OBJECTS)
-	g++ -o tests tests.o $(OBJECTS)
-
-
-
-unindent.o: unindent.cpp unindent.h
+indent.o: indent.cpp indent.h
 
 
 clean:
-	rm -f main main.o $(OBJECTS)
+	rm -f main main.o indent.o
