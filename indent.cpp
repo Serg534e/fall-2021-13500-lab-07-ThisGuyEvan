@@ -31,7 +31,7 @@ std::string unIndent(std::string s)
    return cleaned;
 }
 
-
+// Checks the lines for open/closed brackets to either add or subtract the number of tabs respectively.
 std::string reIndent(std::string line)
 {
    std::string indented = "";
@@ -65,5 +65,3 @@ std::string reIndent(std::string line)
 
    return indented;
 }
-
-
